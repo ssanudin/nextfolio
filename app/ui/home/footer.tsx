@@ -17,7 +17,7 @@ export default function Footer() {
           </div>
           <p className="max-w-[15rem] m-auto mt-8 sm:m-0 sm:max-w-[16rem] md:max-w-full sm:order-first">
             &copy; {new Date().getFullYear()} Sanudin. Developed with ❤. Build
-            with Next.js hosted on Vercel
+            with Next.js hosted on Vercel.
           </p>
         </div>
       </div>

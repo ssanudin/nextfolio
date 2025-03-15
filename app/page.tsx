@@ -1,10 +1,11 @@
 import Link from "next/link";
-import Header from "./ui/header";
-import Hero from "./ui/hero";
+import Header from "./ui/sections/header";
+import Hero from "./ui/sections/hero";
+import Footer from "./ui/sections/footer";
 
 export default function Page() {
   return (
-    <div className="">
+    <>
       <Header />
       <main className="flex flex-1 flex-col items-center justify-center p-4">
         <Hero />
@@ -41,9 +42,7 @@ export default function Page() {
           </div>
         </div>
       </main>
-      <footer className="text-center">
-        &copy; {new Date().getFullYear()} Sanudin.
-      </footer>
-    </div>
+      {/* <Footer /> */}
+    </>
   );
 }

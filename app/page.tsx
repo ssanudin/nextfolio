@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Header from "./ui/sections/header";
-import Hero from "./ui/sections/hero";
-import Footer from "./ui/sections/footer";
+import Header from "./ui/home/header";
+import Hero from "./ui/home/hero";
+import Footer from "./ui/home/footer";
 
 export default function Page() {
   return (
@@ -42,7 +42,7 @@ export default function Page() {
           </div>
         </div>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,6 @@
 export default function Connects() {
   return (
-    <nav className="space-x-4 text-sm text-gray-800 flex">
+    <nav className="space-x-4 text-sm flex">
       <a
         className="hover:text-title transition-all transition-discrete bg-transparent flex items-center text-content"
         href="https://www.linkedin.com/in/sanudin"

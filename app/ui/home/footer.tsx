@@ -5,7 +5,7 @@ import GoToTop from "../buttons/gototop";
 export default function Footer() {
   return (
     <footer
-      className={`${montserrat.className} text-center text-xs sm:text-sm font-semibold border-t-1 border-primary`}
+      className={`${montserrat.className} text-center text-xs sm:text-sm border-t-1 border-primary`}
     >
       <div className="container mx-auto px-4 pt-10 pb-8">
         <GoToTop />

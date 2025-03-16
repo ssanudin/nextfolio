@@ -10,14 +10,14 @@ export default function Hero() {
         src="/sanudin-avatar.png"
       />
       <div className="text-center mx-auto mb-15">
-        <h1 className="text-4xl lg:text-6xl my-5 font-bold">
+        <h1 className="text-4xl lg:text-6xl my-5 font-bold text-content">
           Hi, I&apos;m
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-600 mx-3">
             Sanudin
           </span>
           👋
         </h1>
-        <h2 className="text-xl lg:text-2xl font-semibold">
+        <h2 className="text-xl lg:text-2xl font-semibold text-content">
           A software engineer, developer, and lifelong learner
         </h2>
       </div>

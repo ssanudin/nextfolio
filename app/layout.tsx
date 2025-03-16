@@ -3,7 +3,7 @@ import { poppins, montserrat } from "./ui/fonts";
 import "@/app/ui/globals.css";
 
 export const metadata: Metadata = {
-  title: "Sanudin - Software Engineer and Developer",
+  title: "Sanudin | Software Engineer and Developer",
   description:
     "A software engineer and developer passionate about helping people to create great products.",
 };

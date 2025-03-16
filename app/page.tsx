@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Header from "./ui/home/header";
 import Hero from "./ui/home/hero";
+import About from "./ui/home/about";
 import Footer from "./ui/home/footer";
 
 export default function Page() {
@@ -41,6 +42,8 @@ export default function Page() {
             </nav>
           </div>
         </div>
+
+        <About />
       </main>
       <Footer />
     </>

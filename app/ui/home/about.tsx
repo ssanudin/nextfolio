@@ -10,7 +10,10 @@ export default function About() {
       className="px-4 py-10 bg-sky-950 text-gray-300 rounded-xl w-full"
     >
       <div className="container text-center">
-        <h2 className="font-bold text-3xl mb-4 text-white">About me</h2>
+        <div className="border border-white/15 w-14 h-14 rounded-xl text-2xl flex justify-center items-center mx-auto mb-3">
+          🧑‍🔧
+        </div>
+        <h2 className="font-bold text-2xl mb-4 text-white">About me</h2>
         <p>
           A software engineer and developer based in Indonesia, passionate about
           helping entrepreneurs create great products.

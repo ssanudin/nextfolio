@@ -22,7 +22,7 @@ export default function About() {
           My experience and skillset include both Front-end and Back-end
           Development.
         </p>
-        <div className="flex justify-center gap-3 flex-wrap mt-8">
+        <div className="flex justify-center gap-8 flex-wrap mt-8">
           {skillset.map((skill) => (
             <Image key={skill.id} alt={skill.name} width={48} height={48} src={skill.image} />
           ))}

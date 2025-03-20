@@ -27,6 +27,7 @@ export default function Hero() {
       {/* Gif maker https://ezgif.com */}
       {/* Icons from https://www.flaticon.com */}
       <Image alt="Icons" width={48} height={48} src="/icons.webp" />
+      <div className="w-[1px] h-[10rem] mt-10 relative overflow-hidden after:absolute after:block after:bg-primary after:w-full after:h-[50%] after:transition-all after:animate-moveme"></div>
     </section>
   );
 }

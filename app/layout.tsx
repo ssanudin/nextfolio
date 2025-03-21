@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { poppins, montserrat } from "./ui/fonts";
+import { montserrat } from "./ui/fonts";
 import "@/app/ui/globals.css";
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={`${montserrat.className} antialiased`}>{children}</body>
     </html>
   );

@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="px-4 py-10 mt-10 bg-sky-950 text-gray-300 rounded-xl w-full"
+      className="px-4 py-20 mt-10 bg-sky-950 text-gray-300 rounded-xl w-full"
     >
       <div className="container mx-auto text-center">
         <div className="border border-white/15 w-14 h-14 rounded-xl text-2xl flex justify-center items-center mx-auto mb-3">
@@ -24,7 +24,13 @@ export default function About() {
         </p>
         <div className="flex justify-center gap-8 flex-wrap mt-8">
           {skillset.map((skill) => (
-            <Image key={skill.id} alt={skill.name} width={48} height={48} src={skill.image} />
+            <Image
+              key={skill.id}
+              alt={skill.name}
+              width={48}
+              height={48}
+              src={skill.image}
+            />
           ))}
         </div>
         {/* <ul>

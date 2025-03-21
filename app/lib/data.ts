@@ -65,7 +65,7 @@ export function getProjects() {
       description: `<p class="mb-3 text-justify">A simple and heartfelt wedding website created to share the joy of Sanudin and Nurfauziah's special day. The site includes essential features to keep guests informed and engaged: Events, Story, Photo Gallery, and Wishes.</p>
           <p class="mb-3 text-justify">Designed with simplicity and warmth, this website ensures a seamless experience for guests to celebrate and connect with the couple on their big day.</p>`,
       image: "/project-wedding-site.png",
-      tags: ['sass', 'bootstrap', 'notion'],
+      tags: ["sass", "bootstrap", "notion"],
       link: "https://ziah.sanud.in/",
       github: "https://github.com/ssanudin/ziah",
     },
@@ -74,7 +74,7 @@ export function getProjects() {
       title: "Book collection manager (Bookshelf App)",
       description: `<p class="mb-3 text-justify">The Bookshelf App is a web application that allows users to manage their book collection. Users can add new books, search for existing books, and view lists of completed and incomplete books. The app provides a user-friendly interface and utilizes local storage to save book data.</p>`,
       image: "/project-book-collection-manager.png",
-      tags: ['javascript'],
+      tags: ["javascript"],
       link: "https://ssanudin.github.io/bookshelf-app-v1/",
       github: "https://github.com/ssanudin/bookshelf-app-v1",
     },
@@ -84,10 +84,10 @@ export function getProjects() {
       description: `<p class="mb-3 text-justify">A notes application to manage your tasks and notes efficiently. This app allows users to create, edit, and delete notes, providing a simple and intuitive interface.</p>
       <p class="mb-3 text-justify">This project utilizes custom element components in JavaScript, allowing for a modular and reusable approach to building the user interface.</p>`,
       image: "/project-notes-app.png",
-      tags: ['javascript', 'webpack'],
+      tags: ["javascript", "webpack"],
       link: "https://notes-app-sanudin.vercel.app/",
       github: "https://github.com/ssanudin/notes-app-v1",
-    }
+    },
   ];
 
   return projects;

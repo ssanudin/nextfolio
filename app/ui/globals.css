@@ -19,10 +19,22 @@
   --animate-moveme: moveme 1s ease-in-out infinite;
 
   @keyframes moveme {
-    0% { top: 0; height: 0%; }
-    50%  { top: 50%; height: 150%; }
-    75% { top: 100%; height: 100%;}
-    100% { top: 160%; height: 50%;}
+    0% {
+      top: 0;
+      height: 0%;
+    }
+    50% {
+      top: 50%;
+      height: 150%;
+    }
+    75% {
+      top: 100%;
+      height: 100%;
+    }
+    100% {
+      top: 160%;
+      height: 50%;
+    }
   }
 }
 

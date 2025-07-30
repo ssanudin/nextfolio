@@ -95,7 +95,7 @@ export function getProjects() {
       image: "/project-ddevs-story.png",
       tags: ["web development"],
       link: "https://ddevs-story.web.app/",
-      github: "",
+      github: "https://github.com/ssanudin/ddevs-story",
     },
   ];
 

@@ -88,6 +88,15 @@ export function getProjects() {
       link: "https://notes-app-sanudin.vercel.app/",
       github: "https://github.com/ssanudin/notes-app-v1",
     },
+    {
+      id: "4",
+      title: "DDevs Story",
+      description: `<p class="mb-3 text-justify">DDevs Story is a web application that showcases development stories and experiences. This project demonstrates modern web development practices and provides an engaging platform for sharing developer journeys.</p>`,
+      image: "/project-ddevs-story.png",
+      tags: ["web development"],
+      link: "https://ddevs-story.web.app/",
+      github: "",
+    },
   ];
 
   return projects;
